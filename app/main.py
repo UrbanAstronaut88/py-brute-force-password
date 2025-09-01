@@ -37,7 +37,7 @@ def brute_force_password() -> None:
 
     print("\nAll passwords found:")
     for h, pwd in found.items():
-        print(f"{h} -> {pwd}")
+        print(f"--->>> {pwd}")
 
 if __name__ == "__main__":
     start_time = time.perf_counter()
